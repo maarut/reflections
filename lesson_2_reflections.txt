@@ -28,3 +28,15 @@ The staging area holds only the changes that you wish to commit. You can
 perform a diff against the staging area and the repository before committing
 to ensure that all of the changes being committed are part of one logical
 change.
+
+-------------------------------------------------------------------------------
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+-------------------------------------------------------------------------------
+
+Branches are useful when trying new things with the codebase that are not yet
+ready to add in to the main line. This could be an experimental feature, for 
+example, or a major refactoring. Making changes to the master branch could then
+be reserved for bug fix changes, or items that deserve to remain in the main
+codebase (for example, additional or updated documentation), and the new branch
+could show the evolution of the experimental feature. 
