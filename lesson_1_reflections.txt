@@ -1,0 +1,83 @@
+-------------------------------------------------------------------------------
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+-------------------------------------------------------------------------------
+
+Viewing a diff of the old and a new file showed me the changes between the two
+files. It was clear to see what had changed because the `diff` command
+surrounds the changed lines with context. The changed lines are marked with a
+'-' if the line exists in the old file, but not the new, and a '+' if the line
+exists in the new file but not the old.
+
+Showing only the changes, and the context surrounding those changes allowed me
+to quickly zero in on the problem in large files.
+
+-------------------------------------------------------------------------------
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+-------------------------------------------------------------------------------
+
+If the entire history of a file were available to me, it would make it much
+easier to see what changes broke a particular feature and revert back to the
+old code. Alternatively, it would be easier to see how to incorporate the
+concepts of the old code in to the new code.
+
+-------------------------------------------------------------------------------
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+-------------------------------------------------------------------------------
+
+The pros of manually committing are that the changes that are committed, tend
+to make more logical sense. You can ensure that any version of the code that
+is checked out can be compiled and run. In addition, viewing the commit history
+would be much more manageable because the commits correspond to logical chunks
+of work. The con of manually committing are that it is up to the user when to
+commit. It may be possible for a user to forget to commit until too large a
+change has been made, muddying that particular commit.
+
+The pro of automated versioning is that the user doesn't have to worry about
+stopping and choosing a point to save their current work. The system will do
+that autmatically for you. The con is that sometimes a commit would be too
+small, and reviewing the history may become cumbersome. 
+
+-------------------------------------------------------------------------------
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+-------------------------------------------------------------------------------
+
+Git allows saving multiple files in a commit because every file in the project
+is part of the project. The purpose of Git is to track changes in the project,
+not just individual files. Google Docs treats each file separately because each
+document tends to be a standalone piece of work.
+
+-------------------------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+-------------------------------------------------------------------------------
+
+git log can help you track down the particular commit that you're interested
+in. The command will list the commit ID that you will need to use to view the
+diff of the file. You can supply the commit ID of the commit that you're
+interested in, along with the commit ID of the previous commit to get the
+differences between the two versions.
+
+-------------------------------------------------------------------------------
+How might using version control make you more confident to make changes that
+could break something?
+-------------------------------------------------------------------------------
+
+With version control, there is a saved state where everything is working. The
+developer can then go ahead and make changes as they see fit to implement the
+new feature, without worrying about what would happen if the changes break
+anything.
+
+The caveat here is that the change must be limited to a specific area or
+concept so as to ensure that any breaking changes can be easily reverted.
+
+-------------------------------------------------------------------------------
+Now that you have your workspace set up, what do you want to try using Git for?
+-------------------------------------------------------------------------------
+
+I want to try using Git for my software projects as part of the Udacity iOS
+developer program.
