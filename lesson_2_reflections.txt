@@ -39,4 +39,12 @@ ready to add in to the main line. This could be an experimental feature, for
 example, or a major refactoring. Making changes to the master branch could then
 be reserved for bug fix changes, or items that deserve to remain in the main
 codebase (for example, additional or updated documentation), and the new branch
-could show the evolution of the experimental feature. 
+could show the evolution of the experimental feature.
+
+-------------------------------------------------------------------------------
+How do the diagrams help you visualize the branch structure? 
+-------------------------------------------------------------------------------
+
+Drawing a diagram of the commit history helps to visualise the structure of the
+repository. It makes clear what code is independent in each branch, and
+therefore what code each branch contains.
