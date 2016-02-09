@@ -18,3 +18,13 @@ whether the files or changes have been added to version control or not. The
 staging area is valuable because it allows the user to double check that they
 are committing only the changes that they need to before actually committing
 to the repository.
+
+-------------------------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical
+change?
+-------------------------------------------------------------------------------
+
+The staging area holds only the changes that you wish to commit. You can
+perform a diff against the staging area and the repository before committing
+to ensure that all of the changes being committed are part of one logical
+change.
