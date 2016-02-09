@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+What happens when you initialize a repository? Why do you need to do it?
+-------------------------------------------------------------------------------
+
+When a repository is initialised, all that happens is that the metadata
+structures are created. They are not populated with any data until the first
+commit. This needs to happen first, so that git knows that this is a directory
+that the user intends to track the revision history of.
+
+-------------------------------------------------------------------------------
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+-------------------------------------------------------------------------------
+
+The staging area is a place to hold changes right before a commit is made. The
+working directory is an up to the second reflection on what you are working on
+whether the files or changes have been added to version control or not. The
+staging area is valuable because it allows the user to double check that they
+are committing only the changes that they need to before actually committing
+to the repository.
