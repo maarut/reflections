@@ -61,3 +61,21 @@ mainline code.
 It is represented in the diagram as a commit with two parents to show that the
 commit has two parens, allowing us to go through the commit history for each
 branch, in a single unified view.
+
+-------------------------------------------------------------------------------
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+-------------------------------------------------------------------------------
+
+The pro of merging automatically is that the user doesn't have to think too
+deeply about the changes made in a particular file. Oftentimes the change will
+be large, and reasoning about the change could take as long as it took to write
+the change in the first place. The con of automatically merging is that the
+user is reliant on git performing the merge properly. Sometimes, tools fail at
+performing the simplest of tasks.
+
+The pro of manually merging is that the end result is going to be correct. The
+user often has a better understanding of the code that is being merged, and can
+ensure that the the semantics of the changes being merged are correct. The con
+is that reasoning about the change can be a huge congnitive load, making the
+merge difficult, especially if the changes are large.
