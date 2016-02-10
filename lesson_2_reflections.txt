@@ -48,3 +48,16 @@ How do the diagrams help you visualize the branch structure?
 Drawing a diagram of the commit history helps to visualise the structure of the
 repository. It makes clear what code is independent in each branch, and
 therefore what code each branch contains.
+
+-------------------------------------------------------------------------------
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+-------------------------------------------------------------------------------
+
+The result of merging two branches together is to combine the work that has
+been done on each branch. In most cases, this means adding a feature to the
+mainline code.
+
+It is represented in the diagram as a commit with two parents to show that the
+commit has two parens, allowing us to go through the commit history for each
+branch, in a single unified view.
