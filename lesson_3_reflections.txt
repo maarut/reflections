@@ -20,3 +20,11 @@ current contributors do not want to implement, you would clone the repository,
 and add your feature. You would also essentially create a fork of the project,
 but you could always request the maintainer pull your changes back to the main
 project.
+
+-------------------------------------------------------------------------------
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+-------------------------------------------------------------------------------
+
+Pulling changes manually ensures that the user is able to have control over the
+state of their local repository. It will avoid any conflicts from occuring.
