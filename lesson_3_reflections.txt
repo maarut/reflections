@@ -1,1 +1,22 @@
-When would you want to use a remote repository rather than keeping all your work local?
+-------------------------------------------------------------------------------
+When would you want to use a remote repository rather than keeping all your
+work local?
+-------------------------------------------------------------------------------
+
+There are a few instance where a remote repository would be useful. One of
+those times is when you are working on a project as part of a team. The main
+repository could live remotely, and whilst you are working on a particular
+feature, you could clone the repository and work on the feature remotely. When
+you are done implementing the feature, the branch on which the feature lives
+can be pushed to the remote repository.
+
+Further to the above, you would also make a remote repository if you wanted to
+make your code public.
+
+Another time when you must work with a remote repository, is if you are cloning
+and working on a repository on which you cannot commit. This can happen on an
+open source project for example. If you require a particular feature that the
+current contributors do not want to implement, you would clone the repository,
+and add your feature. You would also essentially create a fork of the project,
+but you could always request the maintainer pull your changes back to the main
+project.
