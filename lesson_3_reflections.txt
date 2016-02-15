@@ -27,4 +27,21 @@ automatically stay up-to-date with your remote repository?
 -------------------------------------------------------------------------------
 
 Pulling changes manually ensures that the user is able to have control over the
-state of their local repository. It will avoid any conflicts from occuring.
+state of their local repository. It will avoid any unwanted conflicts from
+occuring.
+
+-------------------------------------------------------------------------------
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+-------------------------------------------------------------------------------
+
+A fork is a Github term for a remote clone of a repository. This is simply a
+clone that is not owned by you on Github.
+
+A clone is a copy of another repository, whether remote or local.
+
+A branch is a git term for code that is diverging from the mainline code. For
+example, if a developer is creating a feature not yet ready for prime time,
+they can create a branch from the main code and develop their feature on the
+branch. This ensures that the code on the branch remains isolated from the main
+code.
