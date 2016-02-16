@@ -54,3 +54,16 @@ stored locally?
 Having a copy of the last known state of the remote stored locally enables the
 developer to continue working on the project whilst they're offline, with the
 most up to date version of the code.
+
+-------------------------------------------------------------------------------
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+-------------------------------------------------------------------------------
+
+Collaborating without Git or GitHub is still possible. There are other version
+control systems in use, and email can be used to communicate changes made to
+the repository. However, GitHub has a large user base, and automates many
+common tasks.
+
+In terms of ease of use of alternate systems, I am not proficient enough in the
+alternatives to comment. 
