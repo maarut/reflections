@@ -45,3 +45,12 @@ example, if a developer is creating a feature not yet ready for prime time,
 they can create a branch from the main code and develop their feature on the
 branch. This ensures that the code on the branch remains isolated from the main
 code.
+
+-------------------------------------------------------------------------------
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+-------------------------------------------------------------------------------
+
+Having a copy of the last known state of the remote stored locally enables the
+developer to continue working on the project whilst they're offline, with the
+most up to date version of the code.
