@@ -67,3 +67,18 @@ common tasks.
 
 In terms of ease of use of alternate systems, I am not proficient enough in the
 alternatives to comment. 
+
+-------------------------------------------------------------------------------
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+-------------------------------------------------------------------------------
+
+You would want to make changes on a different branch when you're adding an
+unproven feature, or making a change that will have dramatic effects on the
+code base. The benefit in this case is that other developers can continue
+working on the master branch without interruption.
+
+You would want to work directly on master when the change that is being made
+is small or logically should take place on master (for example, a bug fix).
+The benefit of doing this is that the overhead of pull requests doesn't need
+to be made.
